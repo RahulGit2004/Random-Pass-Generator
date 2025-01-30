@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    background: #FF5A5A;
+}
+
+h2 {
+    color: #FEEDED;
+}
+
+#center-div {
+    padding: 1rem;
+    background-color: #FEEDED;
+    box-shadow: 2px 2px 10px #FF5A5A;
+    height: 450px;
+    overflow: auto;
+    border-radius: 10px;
+}
+
+
+#copy-btn:hover {
+    color: white;
+}
+
+#copy-btn {
+    border: 2px solid #FF5A5A;
+    color: black;
+}
+
+#generate-btn {
+    color: red;
+    border: none;
+    width: 100%;
+    margin-top: 1rem;
+    padding: 0.5rem;
+}
+#generate-btn:hover {
+    color: white;
+}
+
+.btn:hover {
+    background-color: #FE2E2E;
+    font-weight: bold;
+    border: none; 
+    outline: none; 
+}
+
+
+#password-length {
+    width: 100%;
+    accent-color: #FE2E2E; 
+}
+
+.list-group-item:hover {
+    background-color: #FF9898;
+}
+.form-check-input:checked {
+    border: none;
+    background-color: #FE2E2E;
+}
