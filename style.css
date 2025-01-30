@@ -4,9 +4,10 @@
     box-sizing: border-box;
 }
 
-.container-fluid {
+body {
     background: #FF5A5A;
 }
+
 h2 {
     color: #FEEDED;
 }
