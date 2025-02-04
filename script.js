@@ -11,14 +11,12 @@ passLength.addEventListener("input", function () {
     passLengthValue.textContent = this.value;
 });
 
-
-
 // Taking input checkbox
 const lowercaseBox = document.getElementById("lowercase");
 const upperCaseBox = document.getElementById("upperCase");
 const numbersBox = document.getElementById("numbers");
 const specialCharBox = document.getElementById("specia-char");
-
+/// let
 // Character sets
 const lowerCaseChars = "abcdefghijklmnopqrstuvwxyz";
 const upperCaseChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -48,6 +46,8 @@ function generateRandomPass() {
     passText.value = pass;
 
 }
+
+
 
 function copyPassword() {
     if (passText.value !== "") {
